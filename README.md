@@ -10,7 +10,7 @@
 
 # sergeapollonov
 
-**Python · TypeScript · React Native · UI/UX**
+**Kotlin · Python · TypeScript · React Native · Android / Jetpack Compose**
 
 *Building tools that look different and work quietly.*
 
@@ -20,7 +20,7 @@
 
 ## // ABOUT
 
-I build desktop utilities, mobile apps, and web tools with a strong focus on **visual design** and **user experience**. My work tends toward minimalist, high-contrast interfaces — often inspired by the **Nothing OS** aesthetic and **Glassmorphism** design language.
+I build native Android applications, desktop utilities, and web tools with a strong focus on **visual design** and **user experience**. My work tends toward minimalist, high-contrast interfaces — often inspired by the **Nothing OS** aesthetic, **Glassmorphism**, and automotive telemetry dashboards.
 
 I care about:
 - Apps that feel fast and stay out of the way
@@ -35,17 +35,29 @@ Languages I work in: `Polish` · `Russian` · `English`
 ## // STACK
 
 ```
-Languages    Python · TypeScript · JavaScript · HTML · CSS/Sass
-Mobile       React Native · Expo · Zustand · React Hook Form · Zod
+Languages    Kotlin · Python · TypeScript · JavaScript · SQL (Room/SQLite) · HTML/CSS
+Mobile       Android Native (Jetpack Compose · Material 3) · React Native · Expo · Zustand
+Architecture MVVM · Clean Architecture · Coroutines · StateFlow · WorkManager · Room DB v7
 Desktop      CustomTkinter · PyInstaller · Win32 API
 Web          Vite · Tailwind · Glassmorphism UI
-AI/Tools     Google Gemini API · PyMuPDF · i18n
-Design       Nothing OS aesthetic · Brutalist UI · Dark mode first
+AI/Tools     Google Gemini API · PyMuPDF · Android Vector PDF Engine · i18n
+Design       Nothing OS aesthetic · Dark Obsidian UI · Brutalist & Precision Dashboards
 ```
 
 ---
 
 ## // PROJECTS
+
+### 🦁 Peugeot 308 Service Book *(Kotlin · Android Native · Jetpack Compose · Private)*
+A native Android digital service logbook, predictive maintenance engine, and diagnostics companion engineered specifically for **Peugeot 308 II (T9) 1.2 PureTech 130 KM (EB2ADTS)**.
+Built with **Modern Android Development (MAD)**:
+- **UI/UX:** 100% Declarative Jetpack Compose (M3) in a custom **Carbon Obsidian & Peugeot Sport Neon** aesthetic.
+- **Engine Pre-Ignition & Wet Belt Protection:** Oil dilution tracker with a 6-point dipstick scale, fuel vapor detection alerts, and timing belt inspection tracker (PSA 16 431 900 80 gauge).
+- **Offline Intelligence:** Room Database v7 with automated schema migrations, real-time Sparkline odometer progression, and fuel economy analytics.
+- **Automated Alerts:** Background WorkManager tracking legal and technical deadlines (OC/AC insurance, SKP inspection, UFG penalty protection).
+- **PDF Engine:** On-device vector PDF service history generation with direct file system export (`Downloads/`) and sharing.
+
+---
 
 ### 🔍 ModernPDFSearch *(Python · Desktop · Windows)*
 A fast, standalone PDF search utility for Windows built with `CustomTkinter` and `PyMuPDF`.
@@ -80,9 +92,10 @@ The native Android companion to Rozlicz.to — same billing logic, rebuilt as a 
 
 ## // CURRENTLY WORKING ON
 
+- `peugeot-308-service-book` — PureTech telemetry, oil dilution monitoring, and preventive maintenance automation
 - `doma` — persistent local store, Supabase backend integration, push notifications
 - `rozliczenie-app` — cross-platform sync between web and Android
-- Exploring new desktop tools in Python
+- Exploring new desktop tools in Python & native Android utilities
 
 ---
 
@@ -101,7 +114,7 @@ The native Android companion to Rozlicz.to — same billing logic, rebuilt as a 
 <div align="center">
 
 ```
-[ PRIVATE REPOS: 5 ]  [ PUBLIC REPOS: 2 ]  [ LANGUAGES: 5 ]
+[ PRIVATE REPOS: 6 ]  [ PUBLIC REPOS: 3 ]  [ LANGUAGES: 6 ]
 ```
 
 *Most active work happens in private repositories.*
