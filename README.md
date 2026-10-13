@@ -21,15 +21,16 @@ A family planner built with **React Native, Expo and TypeScript**, covering even
 
 **Stage:** alpha. The local application is implemented; backend authentication, family sync and notifications remain future work. Full iOS acceptance is still pending. **Source:** private.
 
-### Peugeot 308 Service Book — native Android maintenance app
+### Peugeot 308 Service Book — Android maintenance and live telemetry
 
-An Android project built with **Kotlin, Jetpack Compose and Room**, combining service records, maintenance logic and an OBD/UDS diagnostics prototype.
+A native Android app built with **Kotlin, Jetpack Compose and Room**, combining service records, maintenance planning and live OBD/UDS telemetry.
 
-- Local persistence and a Compose interface.
-- Diagnostic session and transport logic with a fake transport for testing.
-- JVM unit tests and CI that builds a debug APK.
+- Local persistence, service history and PDF reporting.
+- Documented on-car testing: an initial session exposed unsuitable data identifiers; after correcting the PID selection, a repeat session recorded **8,442 CSV samples over approximately 25 minutes**.
+- Request/response logs provide evidence of ECU communication, including successful reads and rejected requests.
+- A transport abstraction and simulated responses support testing without a vehicle; the reviewed CI passed **64 JVM tests** and built a debug APK.
 
-**Stage:** in development. Hardware diagnostics and automotive calculations require further validation. **Source:** private.
+**Stage:** in development, with on-car telemetry sessions documented for one vehicle/adapter setup. Extended parameter decoding, DTC behaviour, automotive calculations and broader compatibility require further validation. **Source:** private.
 
 ### ModernPDFSearch — a focused desktop utility
 
