@@ -1,122 +1,78 @@
-<!-- sergeapollonov — GitHub Profile README -->
-
-<div align="center">
-
-```
-╔══════════════════════════════════════╗
-║        SYS.PROFILE // LOADED         ║
-╚══════════════════════════════════════╝
-```
-
 # sergeapollonov
 
-**Kotlin · Python · TypeScript · React Native · Android / Jetpack Compose**
+**Product-focused developer · React Native / Expo / TypeScript · AI-assisted development**
 
-*Building tools that look different and work quietly.*
+I build practical software for everyday problems: organising family life, keeping vehicle maintenance records, finding information in documents and working with utility invoices.
 
-</div>
+My focus is turning a useful idea into a clear interface and a working implementation. I use AI coding tools to accelerate development, with particular attention to local data, validation, testing and the limits of what has actually been verified.
 
----
+**Interested in junior frontend/mobile roles and AI-assisted product prototyping opportunities.**
 
-## // ABOUT
+## Selected independent projects
 
-I build native Android applications, desktop utilities, and web tools with a strong focus on **visual design** and **user experience**. My work tends toward minimalist, high-contrast interfaces — often inspired by the **Nothing OS** aesthetic, **Glassmorphism**, and automotive telemetry dashboards.
+### Doma — family planning with local data
 
-I care about:
-- Apps that feel fast and stay out of the way
-- Interfaces that communicate without noise
-- Code that is readable before it is clever
-- Privacy-first, offline-capable products
+A family planner built with **React Native, Expo and TypeScript**, covering events, household tasks and shopping lists.
 
-Languages I work in: `Polish` · `Russian` · `English`
+- Persistent local state, versioned data migrations and recovery flows.
+- Russian and Polish interface, shared design tokens and reusable components.
+- Work on date handling, linked records, undo actions and navigation.
+- Unit tests, CI checks and documented platform verification.
 
----
+**Stage:** alpha. The local application is implemented; backend authentication, family sync and notifications remain future work. Full iOS acceptance is still pending. **Source:** private.
 
-## // STACK
+### Peugeot 308 Service Book — native Android maintenance app
 
-```
-Languages    Kotlin · Python · TypeScript · JavaScript · SQL (Room/SQLite) · HTML/CSS
-Mobile       Android Native (Jetpack Compose · Material 3) · React Native · Expo · Zustand
-Architecture MVVM · Clean Architecture · Coroutines · StateFlow · WorkManager · Room DB v7
-Desktop      CustomTkinter · PyInstaller · Win32 API
-Web          Vite · Tailwind · Glassmorphism UI
-AI/Tools     Google Gemini API · PyMuPDF · Android Vector PDF Engine · i18n
-Design       Nothing OS aesthetic · Dark Obsidian UI · Brutalist & Precision Dashboards
-```
+An Android project built with **Kotlin, Jetpack Compose and Room**, combining service records, maintenance logic and an OBD/UDS diagnostics prototype.
 
----
+- Local persistence and a Compose interface.
+- Diagnostic session and transport logic with a fake transport for testing.
+- JVM unit tests and CI that builds a debug APK.
 
-## // PROJECTS
+**Stage:** in development. Hardware diagnostics and automotive calculations require further validation. **Source:** private.
 
-### 🦁 Peugeot 308 Service Book *(Kotlin · Android Native · Jetpack Compose · Private)*
-A native Android digital service logbook, predictive maintenance engine, and diagnostics companion engineered specifically for **Peugeot 308 II (T9) 1.2 PureTech 130 KM (EB2ADTS)**.
-Built with **Modern Android Development (MAD)**:
-- **UI/UX:** 100% Declarative Jetpack Compose (M3) in a custom **Carbon Obsidian & Peugeot Sport Neon** aesthetic.
-- **Engine Pre-Ignition & Wet Belt Protection:** Oil dilution tracker with a 6-point dipstick scale, fuel vapor detection alerts, and timing belt inspection tracker (PSA 16 431 900 80 gauge).
-- **Offline Intelligence:** Room Database v7 with automated schema migrations, real-time Sparkline odometer progression, and fuel economy analytics.
-- **Automated Alerts:** Background WorkManager tracking legal and technical deadlines (OC/AC insurance, SKP inspection, UFG penalty protection).
-- **PDF Engine:** On-device vector PDF service history generation with direct file system export (`Downloads/`) and sharing.
+### ModernPDFSearch — a focused desktop utility
 
----
+A **Windows-oriented Python application** built with **CustomTkinter and PyMuPDF**.
 
-### 🔍 ModernPDFSearch *(Python · Desktop · Windows)*
-A fast, standalone PDF search utility for Windows built with `CustomTkinter` and `PyMuPDF`.
-Designed in the **Nothing OS dot-grid aesthetic** — black background, Doto pixel font, red accents.
-Features: recursive folder scan, live result counter, one-click path copy, file explorer integration.
-Packaged as a single `.exe` via PyInstaller — no Python installation required.
+- Recursive text search across PDF folders.
+- Background scanning with cancellation and result navigation.
+- File and folder actions, with a PyInstaller packaging configuration.
 
----
+**Stage:** prototype. Automated tests and a verified release are further work. **Source:** private.
 
-### 🏠 Doma *(TypeScript · React Native · Expo · Private)*
-A **privacy-first, offline-first family planning app** for iOS and Android.
-Built with Expo + React Native + Zustand, with a complete reusable design system and bilingual `RU/PL` interface.
-Covers shared events, household tasks, shopping lists, and reminders.
-Designed to feel calm and personal — not another productivity system.
+### Rozlicz.to — utility billing workflow prototypes
 
-> *Early alpha. Full docs, CI pipeline, design references, and data model included in the repo.*
+Related **React / TypeScript / Vite** and **React Native / Expo** projects exploring invoice management and monthly utility cost allocation.
 
----
+Implemented work includes invoice editing, balance carry-over, multi-month reporting and a Gemini API integration for extracting invoice information.
 
-### 🧾 Rozlicz.to Web *(TypeScript · Web · AI · Private)*
-An advanced billing management system for landlords and tenants.
-Automatically reads invoices (electricity, gas, water, internet) using the **Google Gemini AI** API.
-Features proportional billing calculations, multi-month report generation, and direct email export.
-Interface: **Glassmorphism Neon** — deep blacks, glowing cards, high contrast — with Nothing OS elements.
+**Stage:** prototypes. AI extraction, financial calculations and data handling need additional validation before wider use. **Source:** private.
 
----
+## How I approach development
 
-### 📱 Rozlicz.to Android *(TypeScript · React Native · Private)*
-The native Android companion to Rozlicz.to — same billing logic, rebuilt as a mobile-first experience.
+- Start with the user problem and define a manageable scope.
+- Make important states visible: empty lists, invalid input, errors and recovery.
+- Review AI-generated changes and use tests and runtime checks to examine the result.
+- Keep implemented functionality, documented plans and verified behaviour distinct.
+- Document decisions and limitations so the next change is easier to understand.
 
----
+## Technology used in my portfolio
 
-## // CURRENTLY WORKING ON
+| Area | Technologies |
+| --- | --- |
+| Cross-platform apps | TypeScript, React Native, Expo, Zustand |
+| Web prototypes | React, Vite, HTML, CSS, JavaScript |
+| Native Android | Kotlin, Jetpack Compose, Room, coroutines |
+| Desktop utilities | Python, CustomTkinter, PyMuPDF, PyInstaller |
+| Quality and workflow | Git, pull requests, GitHub Actions, Vitest, JUnit |
 
-- `peugeot-308-service-book` — PureTech telemetry, oil dilution monitoring, and preventive maintenance automation
-- `doma` — persistent local store, Supabase backend integration, push notifications
-- `rozliczenie-app` — cross-platform sync between web and Android
-- Exploring new desktop tools in Python & native Android utilities
+My main career focus is **frontend/mobile development and product prototyping**.
 
----
+## Public work
 
-## // STATS
+Earlier HTML/CSS practice: [Uber landing page exercise](https://github.com/sergeapollonov/uber), also mirrored in my [GitHub Pages repository](https://github.com/sergeapollonov/sergeapollonov.github.io).
 
-<div align="center">
+Most of my recent source repositories are private. The summaries above describe their current scope and development stage.
 
-![sergeapollonov's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sergeapollonov&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=ff2a2a&icon_color=ff2a2a&text_color=ffffff&ring_color=ff2a2a)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sergeapollonov&layout=compact&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=ff2a2a&text_color=ffffff)
-
-</div>
-
----
-
-<div align="center">
-
-```
-[ PRIVATE REPOS: 6 ]  [ PUBLIC REPOS: 3 ]  [ LANGUAGES: 6 ]
-```
-
-*Most active work happens in private repositories.*
-
-</div>
+Languages: Polish · Russian · English.
