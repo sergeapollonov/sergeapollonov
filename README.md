@@ -49,6 +49,13 @@ Implemented work includes invoice editing, balance carry-over, multi-month repor
 
 **Stage:** prototypes. AI extraction, financial calculations and data handling need additional validation before wider use. **Source:** private.
 
+## Additional prototypes
+
+- **Majster Kraków:** a local-service landing page with an enquiry flow, structured SEO data and a promotional-video rendering workflow.
+- **Smart TV gateway:** a home-lab integration combining Python parsing, a JavaScript playlist and TV remote navigation.
+
+Both are private projects whose external integrations and deployment need further verification.
+
 ## How I approach development
 
 - Start with the user problem and define a manageable scope.
